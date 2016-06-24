@@ -60,10 +60,10 @@
 	              </div>
 	              </div>
 	              <div class="form-group">
-	              <label for="tran_returned_date" class="col-sm-3 control-label">Issued Date</label>
+	              <label for="tran_returned_date" class="col-sm-3 control-label">Returned Date</label>
 	              <div class="col-sm-3">
 	              	<?php date_default_timezone_set('Asia/Kolkata'); ?>
-	                <input name="tran_returned_date" type="date" class="form-control" id="ownername" placeholder="<?php echo date('Y-m-d'); ?>" value="<?php if(isset($tran_returned_date)){echo $tran_returned_date;} ?>" >
+	                <input name="tran_returned_date" type="date" class="form-control" id="ownername" placeholder="<?php echo date('Y-m-d'); ?>" value="<?php echo date('Y-m-d'); ?>" >
 	              </div>
 	              </div>
               <!-- /.box-body -->

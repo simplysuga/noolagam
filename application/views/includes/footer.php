@@ -27,6 +27,7 @@
 <!-- DataTables -->
 <script src="<?php echo base_url('plugins/datatables/jquery.dataTables.min.js'); ?>"></script>
 <script src="<?php echo base_url('plugins/datatables/dataTables.bootstrap.min.js'); ?>"></script>
+
 <script>
 $(document).ready(function() {
      $("#books").DataTable({

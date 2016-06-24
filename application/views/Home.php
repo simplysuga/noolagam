@@ -8,7 +8,7 @@
         <div class="col-xs-12">
           <div class="box">
             <div class="box-header"> 
-              <h3 class="box-title"><a href=""><i class="fa fa-book"></i></a> Nool<b>AGAM</b> - Book list </h3>
+              <h3 class="box-title"><a href=""><i class="fa fa-book"></i></a> நூல்<b>AGAM</b> - Book list </h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">

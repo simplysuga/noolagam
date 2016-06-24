@@ -52,7 +52,7 @@
 	              <label for="tran_issued_date" class="col-sm-3 control-label">Issued Date</label>
 	              <div class="col-sm-3">
 	              	 <?php date_default_timezone_set('Asia/Kolkata'); ?>
-	                <input name="tran_issued_date" type="date" class="form-control" id="ownername" placeholder="<?php echo date('Y-m-d'); ?>" value="<?php if(isset($tran_issued_date)){echo $tran_issued_date;} ?>" >
+	                <input name="tran_issued_date" type="date" class="form-control" id="ownername" placeholder="<?php echo date('Y-m-d'); ?>" value="<?php echo date('Y-m-d'); ?>" >
 	              </div>
 	              </div>
               <!-- /.box-body -->
